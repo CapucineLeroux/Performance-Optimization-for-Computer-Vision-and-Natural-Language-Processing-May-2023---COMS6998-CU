@@ -1,16 +1,10 @@
-# Optimizing VGG model with PyTorch on CIFAR-10
+# HPML Project - Austin Xiong (ax2156) and Capucine Leroux (cpl2146)
 
-Code adapted from https://github.com/kuangliu/pytorch-cifar
+The project aims at optimizing performance of two different models: the VGGNet for visual recognition, and the LSTM for sentiment analysis.
 
-## Prerequisites
-- Python 3.6+
-- PyTorch 1.0+
+## Content of this repository
+There are two folders, one for each model. The content of each folder is explained in a dedicated README for each model. 
 
-## Optimize
-```
-# Run optimization script wth: 
-python main.py
-```
 
 
 

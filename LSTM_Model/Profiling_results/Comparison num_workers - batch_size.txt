@@ -1,0 +1,178 @@
+num_workers = 2 - batch_size = 64
+
+Time:
+===============
+Overall Time: 84.79759356900001s
+	Total train Time: 73.56075159900013s
+	Total validation Time: 6.569835215000012s
+	Total test Time: 1.3796864740000956s
+	Train Time per epoch: 18.390187899750032s
+	Validation per epoch: 1.642458803750003s
+
+
+num_workers = 4 - batch_size = 64
+
+Time:
+===============
+Overall Time: 82.04773649200001s
+	Total train Time: 73.700589692s
+	Total validation Time: 6.790244241999972s
+	Total test Time: 1.506323661999886s
+	Train Time per epoch: 18.425147423s
+	Validation per epoch: 1.697561060499993s
+
+
+num_workers = 8 - batch_size = 64
+
+Time:
+===============
+Overall Time: 83.91110292400003s
+	Total train Time: 74.32992767500014s
+	Total validation Time: 7.743968690999964s
+	Total test Time: 1.785565674000054s
+	Train Time per epoch: 18.582481918750034s
+	Validation per epoch: 1.935992172749991s
+
+
+num_workers = 1 - batch_size = 64
+
+Time:
+===============
+Overall Time: 80.84925393799995s
+	Total train Time: 72.99092323700006s
+	Total validation Time: 6.435727049999969s
+	Total test Time: 1.368612423000286s
+	Train Time per epoch: 18.247730809250015s
+	Validation per epoch: 1.6089317624999921s
+
+
+num_workers = 0 - batch_size = 64
+
+Time:
+===============
+Overall Time: 79.38098347899995s
+	Total train Time: 72.18314673900022s
+	Total validation Time: 5.879038029000185s
+	Total test Time: 1.2684614300001158s
+	Train Time per epoch: 18.045786684750055s
+	Validation per epoch: 1.4697595072500462s
+
+
+num_workers = 0 - batch_size = 32
+
+Time:
+===============
+Overall Time: 112.6074076609998s
+	Total train Time: 100.81831883800032s
+	Total validation Time: 9.671372051000162s
+	Total test Time: 2.0744748550000622s
+	Train Time per epoch: 25.20457970950008s
+	Validation per epoch: 2.4178430127500405s
+
+
+num_workers = 1 - batch_size = 32
+
+Time:
+===============
+Overall Time: 115.54821967199996s
+	Total train Time: 102.5248020959998s
+	Total validation Time: 10.800149298000179s
+	Total test Time: 2.168785403000129s
+	Train Time per epoch: 25.63120052399995s
+	Validation per epoch: 2.7000373245000446s
+
+
+num_workers = 2 - batch_size = 32
+
+Time:
+===============
+Overall Time: 115.46042326899988s
+	Total train Time: 102.90570905699997s
+	Total validation Time: 10.274355131000902s
+	Total test Time: 2.2272010510000655s
+	Train Time per epoch: 25.726427264249992s
+	Validation per epoch: 2.5685887827502256s
+
+
+num_workers = 4 - batch_size = 32
+
+Time:
+===============
+Overall Time: 118.89101100900007s
+	Total train Time: 105.50402739599986s
+	Total validation Time: 10.937576110000009s
+	Total test Time: 2.39613648500017s
+	Train Time per epoch: 26.376006848999964s
+	Validation per epoch: 2.7343940275000023s
+
+
+num_workers = 8 - batch_size = 32
+
+Time:
+===============
+Overall Time: 120.49329110200051s
+	Total train Time: 105.59241081900018s
+	Total validation Time: 12.157681679000234s
+	Total test Time: 2.6940228740004386s
+	Train Time per epoch: 26.398102704750045s
+	Validation per epoch: 3.0394204197500585s
+
+
+num_workers = 0 - batch_size = 128
+
+Time:
+===============
+Overall Time: 60.869897319999836s
+	Total train Time: 54.90470233200176s
+	Total validation Time: 4.938346949999868s
+	Total test Time: 0.9767272859999139s
+	Train Time per epoch: 13.72617558300044s
+	Validation per epoch: 1.234586737499967s
+
+
+num_workers = 1 - batch_size = 128
+
+Time:
+===============
+Overall Time: 62.332113903999925s
+	Total train Time: 55.54914354799985s
+	Total validation Time: 5.585409319998689s
+	Total test Time: 1.1482450600005905s
+	Train Time per epoch: 13.887285886999962s
+	Validation per epoch: 1.3963523299996723s
+
+
+num_workers = 2 - batch_size = 128
+
+Time:
+===============
+Overall Time: 62.02405129999988s
+	Total train Time: 55.57303761999992s
+	Total validation Time: 5.2535337859999345s
+	Total test Time: 1.1463199879999593s
+	Train Time per epoch: 13.89325940499998s
+	Validation per epoch: 1.3133834464999836s
+
+
+num_workers = 4 - batch_size = 128
+
+Time:
+===============
+Overall Time: 63.39808930199979s
+	Total train Time: 55.94040234299973s
+	Total validation Time: 6.127520655000808s
+	Total test Time: 1.2799189029992704s
+	Train Time per epoch: 13.985100585749933s
+	Validation per epoch: 1.531880163750202s
+
+
+num_workers = 8 - batch_size = 128
+
+Time:
+===============
+Overall Time: 65.27702550100003s
+	Total train Time: 57.04902498800038s
+	Total validation Time: 6.663818291000098s
+	Total test Time: 1.5118401550007547s
+	Train Time per epoch: 14.262256247000096s
+	Validation per epoch: 1.6659545727500245s

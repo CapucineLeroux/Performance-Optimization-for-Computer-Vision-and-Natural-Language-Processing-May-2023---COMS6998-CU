@@ -1,0 +1,819 @@
+Comparison of pruning_ratios for each module
+
+module = embedding
+
+	pruning_ratio = 0
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.43s/it, Val Loss: 0.693 | Val Acc: 0.494]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.498 | Val Loss: 0.693 Val Acc: 0.494
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.30s/it, Val Loss: 0.693 | Val Acc: 0.494]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.29it/s]
+Accuracy: 0.5120, Loss: 0.6930
+Time:
+===============
+Overall Time: 16.303798287000063s
+Total train Time: 13.381194124000103s
+Total validation Time: 1.9049667029999s
+Total test Time: 0.9345987140000034s
+Train Time per epoch: 13.381194124000103s
+Validation per epoch: 1.9049667029999s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,546 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.512
+
+	pruning_ratio = 0.1
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,776 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,776 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.49s/it, Val Loss: 0.695 | Val Acc: 0.498]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.504 | Val Loss: 0.695 Val Acc: 0.498
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.21s/it, Val Loss: 0.695 | Val Acc: 0.498]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.35it/s]
+Accuracy: 0.5030, Loss: 0.6939
+Time:
+===============
+Overall Time: 16.21722064300002s
+Total train Time: 13.527475870000217s
+Total validation Time: 1.67651280400014s
+Total test Time: 0.9337229349998779s
+Train Time per epoch: 13.527475870000217s
+Validation per epoch: 1.67651280400014s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,547 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.503
+
+	pruning_ratio = 0.2
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.55s/it, Val Loss: 0.694 | Val Acc: 0.497]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.505 | Val Loss: 0.694 Val Acc: 0.497
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.48s/it, Val Loss: 0.694 | Val Acc: 0.497]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.32it/s]
+Accuracy: 0.5012, Loss: 0.6937
+Time:
+===============
+Overall Time: 16.51864675600018s
+Total train Time: 13.57998262000001s
+Total validation Time: 1.894603637000273s
+Total test Time: 0.9698292620000757s
+Train Time per epoch: 13.57998262000001s
+Validation per epoch: 1.894603637000273s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,547 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5012
+
+	pruning_ratio = 0.3
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.55s/it, Val Loss: 0.694 | Val Acc: 0.496]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.499 | Val Loss: 0.694 Val Acc: 0.496
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.37s/it, Val Loss: 0.694 | Val Acc: 0.496]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.22it/s]
+Accuracy: 0.5075, Loss: 0.6930
+Time:
+===============
+Overall Time: 16.41016582600014s
+Total train Time: 13.536264065999603s
+Total validation Time: 1.8325790469998537s
+Total test Time: 0.9667862599999353s
+Train Time per epoch: 13.536264065999603s
+Validation per epoch: 1.8325790469998537s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,547 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5075
+
+	pruning_ratio = 0.4
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,776 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,776 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.58s/it, Val Loss: 0.693 | Val Acc: 0.503]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.503 | Val Loss: 0.693 Val Acc: 0.503
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.31s/it, Val Loss: 0.693 | Val Acc: 0.503]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.62it/s]
+Accuracy: 0.5141, Loss: 0.6930
+Time:
+===============
+Overall Time: 16.337276958000075s
+Total train Time: 13.598937915999613s
+Total validation Time: 1.7092944610003542s
+Total test Time: 0.9543774660000963s
+Train Time per epoch: 13.598937915999613s
+Validation per epoch: 1.7092944610003542s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,547 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5141
+
+	pruning_ratio = 0.5
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.82s/it, Val Loss: 0.693 | Val Acc: 0.496]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.501 | Val Loss: 0.693 Val Acc: 0.496
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.70s/it, Val Loss: 0.693 | Val Acc: 0.496]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.77it/s]
+Accuracy: 0.5044, Loss: 0.6931
+Time:
+===============
+Overall Time: 16.72647805900033s
+Total train Time: 13.772690509999848s
+Total validation Time: 1.927733956999873s
+Total test Time: 0.9502823660000104s
+Train Time per epoch: 13.772690509999848s
+Validation per epoch: 1.927733956999873s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,545 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5044
+
+	pruning_ratio = 0.6
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,773 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,773 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.77s/it, Val Loss: 0.693 | Val Acc: 0.505]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.503 | Val Loss: 0.693 Val Acc: 0.505
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.63s/it, Val Loss: 0.693 | Val Acc: 0.505]
+Inference: 100%|??????????| 30/30 [00:01<00:00, 27.99it/s]
+Accuracy: 0.4948, Loss: 0.6930
+Time:
+===============
+Overall Time: 16.78152335599998s
+Total train Time: 13.758029994000026s
+Total validation Time: 1.8671527890001016s
+Total test Time: 1.0808704819992272s
+Train Time per epoch: 13.758029994000026s
+Validation per epoch: 1.8671527890001016s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,547 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.4948
+
+	pruning_ratio = 0.7
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,772 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,772 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.74s/it, Val Loss: 0.694 | Val Acc: 0.495]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.499 | Val Loss: 0.694 Val Acc: 0.495
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.60s/it, Val Loss: 0.694 | Val Acc: 0.495]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 30.73it/s]
+Accuracy: 0.5044, Loss: 0.6931
+Time:
+===============
+Overall Time: 16.65556272000049s
+Total train Time: 13.764368724000633s
+Total validation Time: 1.826798484000392s
+Total test Time: 0.9821889400000146s
+Train Time per epoch: 13.764368724000633s
+Validation per epoch: 1.826798484000392s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,547 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5044
+
+	pruning_ratio = 0.8
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.52s/it, Val Loss: 0.694 | Val Acc: 0.504]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.500 | Val Loss: 0.694 Val Acc: 0.504
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.24s/it, Val Loss: 0.694 | Val Acc: 0.504]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.49it/s]
+Accuracy: 0.5149, Loss: 0.6931
+Time:
+===============
+Overall Time: 16.246355054999185s
+Total train Time: 13.561903144999633s
+Total validation Time: 1.6711852629996429s
+Total test Time: 0.9290636420000737s
+Train Time per epoch: 13.561903144999633s
+Validation per epoch: 1.6711852629996429s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,547 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5149
+
+	pruning_ratio = 0.9
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,773 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,773 non-zero trainable parameters
+Model size: 250.95 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.40s/it, Val Loss: 0.694 | Val Acc: 0.496]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.498 | Val Loss: 0.694 Val Acc: 0.496
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.17s/it, Val Loss: 0.694 | Val Acc: 0.496]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.88it/s]
+Accuracy: 0.5071, Loss: 0.6931
+Time:
+===============
+Overall Time: 16.186096454000108s
+Total train Time: 13.406403547000082s
+Total validation Time: 1.755532616999517s
+Total test Time: 0.9448622019999675s
+Train Time per epoch: 13.406403547000082s
+Validation per epoch: 1.755532616999517s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 6,832,546 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5071
+
+
+module = lstm
+
+	pruning_ratio = 0
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,775 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,775 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.35s/it, Val Loss: 0.693 | Val Acc: 0.502]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.502 | Val Loss: 0.693 Val Acc: 0.502
+Training: 100%|??????????| 1/1 [00:14<00:00, 15.00s/it, Val Loss: 0.693 | Val Acc: 0.502]
+Inference: 100%|??????????| 30/30 [00:01<00:00, 28.74it/s]
+Accuracy: 0.4988, Loss: 0.6933
+Time:
+===============
+Overall Time: 16.090295932000117s
+Total train Time: 13.37123568700008s
+Total validation Time: 1.622048174000156s
+Total test Time: 1.0486262250005893s
+Train Time per epoch: 13.37123568700008s
+Validation per epoch: 1.622048174000156s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,351 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.4988
+
+	pruning_ratio = 0.1
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.32s/it, Val Loss: 0.693 | Val Acc: 0.499]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.499 | Val Loss: 0.693 Val Acc: 0.499
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.81s/it, Val Loss: 0.693 | Val Acc: 0.499]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.89it/s]
+Accuracy: 0.5077, Loss: 0.6930
+Time:
+===============
+Overall Time: 15.801282265999362s
+Total train Time: 13.338186619000226s
+Total validation Time: 1.4661537000001772s
+Total test Time: 0.9474000749996776s
+Train Time per epoch: 13.338186619000226s
+Validation per epoch: 1.4661537000001772s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,350 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5077
+
+	pruning_ratio = 0.2
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.28s/it, Val Loss: 0.693 | Val Acc: 0.499]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.501 | Val Loss: 0.693 Val Acc: 0.499
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.73s/it, Val Loss: 0.693 | Val Acc: 0.499]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.61it/s]
+Accuracy: 0.5012, Loss: 0.6933
+Time:
+===============
+Overall Time: 15.703458062999744s
+Total train Time: 13.31343198400009s
+Total validation Time: 1.4130194290000873s
+Total test Time: 0.9264018680005393s
+Train Time per epoch: 13.31343198400009s
+Validation per epoch: 1.4130194290000873s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,351 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5012
+
+	pruning_ratio = 0.3
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,775 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,775 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.39s/it, Val Loss: 0.694 | Val Acc: 0.493]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.507 | Val Loss: 0.694 Val Acc: 0.493
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.84s/it, Val Loss: 0.694 | Val Acc: 0.493]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.76it/s]
+Accuracy: 0.5030, Loss: 0.6934
+Time:
+===============
+Overall Time: 15.811782845999915s
+Total train Time: 13.421803698000076s
+Total validation Time: 1.4153876079999463s
+Total test Time: 0.922196812999573s
+Train Time per epoch: 13.421803698000076s
+Validation per epoch: 1.4153876079999463s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,351 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.503
+
+	pruning_ratio = 0.4
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.35s/it, Val Loss: 0.693 | Val Acc: 0.499]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.509 | Val Loss: 0.693 Val Acc: 0.499
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.85s/it, Val Loss: 0.693 | Val Acc: 0.499]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.56it/s]
+Accuracy: 0.5142, Loss: 0.6930
+Time:
+===============
+Overall Time: 15.827540298999338s
+Total train Time: 13.369648846000018s
+Total validation Time: 1.4756107860002885s
+Total test Time: 0.9275487280001471s
+Train Time per epoch: 13.369648846000018s
+Validation per epoch: 1.4756107860002885s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,351 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5142
+
+	pruning_ratio = 0.5
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,773 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,773 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.35s/it, Val Loss: 0.694 | Val Acc: 0.498]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.500 | Val Loss: 0.694 Val Acc: 0.498
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.82s/it, Val Loss: 0.694 | Val Acc: 0.498]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.10it/s]
+Accuracy: 0.5030, Loss: 0.6936
+Time:
+===============
+Overall Time: 15.806912592000117s
+Total train Time: 13.363693367999986s
+Total validation Time: 1.452523829000711s
+Total test Time: 0.9411339070002214s
+Train Time per epoch: 13.363693367999986s
+Validation per epoch: 1.452523829000711s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,349 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.503
+
+	pruning_ratio = 0.6
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,775 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,775 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.31s/it, Val Loss: 0.693 | Val Acc: 0.495]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.501 | Val Loss: 0.693 Val Acc: 0.495
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.77s/it, Val Loss: 0.693 | Val Acc: 0.495]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.98it/s]
+Accuracy: 0.5082, Loss: 0.6931
+Time:
+===============
+Overall Time: 15.771122222000486s
+Total train Time: 13.332076470000175s
+Total validation Time: 1.4381817250005042s
+Total test Time: 0.9443432970001595s
+Train Time per epoch: 13.332076470000175s
+Validation per epoch: 1.4381817250005042s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,351 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5082
+
+	pruning_ratio = 0.7
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,773 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,773 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.34s/it, Val Loss: 0.693 | Val Acc: 0.498]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.505 | Val Loss: 0.693 Val Acc: 0.498
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.83s/it, Val Loss: 0.693 | Val Acc: 0.498]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.89it/s]
+Accuracy: 0.4964, Loss: 0.6936
+Time:
+===============
+Overall Time: 15.827978952000194s
+Total train Time: 13.360840552999434s
+Total validation Time: 1.46968838399971s
+Total test Time: 0.9475980819997858s
+Train Time per epoch: 13.360840552999434s
+Validation per epoch: 1.46968838399971s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,349 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.4964
+
+	pruning_ratio = 0.8
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,772 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,772 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.30s/it, Val Loss: 0.695 | Val Acc: 0.498]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.503 | Val Loss: 0.695 Val Acc: 0.498
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.76s/it, Val Loss: 0.695 | Val Acc: 0.498]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.44it/s]
+Accuracy: 0.5055, Loss: 0.6937
+Time:
+===============
+Overall Time: 15.744347443000152s
+Total train Time: 13.338862427000095s
+Total validation Time: 1.4242718909999894s
+Total test Time: 0.9305569389998709s
+Train Time per epoch: 13.338862427000095s
+Validation per epoch: 1.4242718909999894s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,348 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5055
+
+	pruning_ratio = 0.9
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 146.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.38s/it, Val Loss: 0.694 | Val Acc: 0.498]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.502 | Val Loss: 0.694 Val Acc: 0.498
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.88s/it, Val Loss: 0.694 | Val Acc: 0.498]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.64it/s]
+Accuracy: 0.5012, Loss: 0.6932
+Time:
+===============
+Overall Time: 15.858110658999976s
+Total train Time: 13.4032617390003s
+Total validation Time: 1.4750895970000784s
+Total test Time: 0.9271575679995294s
+Train Time per epoch: 13.4032617390003s
+Validation per epoch: 1.4750895970000784s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 31,428,351 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5012
+
+
+module = fc
+
+	pruning_ratio = 0
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.55s/it, Val Loss: 0.692 | Val Acc: 0.504]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.503 | Val Loss: 0.692 Val Acc: 0.504
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.96s/it, Val Loss: 0.692 | Val Acc: 0.504]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.65it/s]
+Accuracy: 0.5159, Loss: 0.6924
+Time:
+===============
+Overall Time: 15.926332445999833s
+Total train Time: 13.594531485000516s
+Total validation Time: 1.359963900999901s
+Total test Time: 0.9261833390000902s
+Train Time per epoch: 13.594531485000516s
+Validation per epoch: 1.359963900999901s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,315 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5159
+
+	pruning_ratio = 0.1
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,776 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,776 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.62s/it, Val Loss: 0.693 | Val Acc: 0.500]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.506 | Val Loss: 0.693 Val Acc: 0.500
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.02s/it, Val Loss: 0.693 | Val Acc: 0.500]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.84it/s]
+Accuracy: 0.5156, Loss: 0.6933
+Time:
+===============
+Overall Time: 16.0117631359999s
+Total train Time: 13.64349766900068s
+Total validation Time: 1.3702186680002342s
+Total test Time: 0.9487244450001526s
+Train Time per epoch: 13.64349766900068s
+Validation per epoch: 1.3702186680002342s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,316 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5156
+
+	pruning_ratio = 0.2
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.58s/it, Val Loss: 0.693 | Val Acc: 0.503]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.501 | Val Loss: 0.693 Val Acc: 0.503
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.97s/it, Val Loss: 0.693 | Val Acc: 0.503]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.41it/s]
+Accuracy: 0.5100, Loss: 0.6930
+Time:
+===============
+Overall Time: 15.949148444999992s
+Total train Time: 13.612701304999973s
+Total validation Time: 1.3517753010000888s
+Total test Time: 0.932508916000188s
+Train Time per epoch: 13.612701304999973s
+Validation per epoch: 1.3517753010000888s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,316 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.51
+
+	pruning_ratio = 0.3
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,772 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,772 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.60s/it, Val Loss: 0.694 | Val Acc: 0.506]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.504 | Val Loss: 0.694 Val Acc: 0.506
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.98s/it, Val Loss: 0.694 | Val Acc: 0.506]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.90it/s]
+Accuracy: 0.5188, Loss: 0.6925
+Time:
+===============
+Overall Time: 15.973254241999712s
+Total train Time: 13.624780596000164s
+Total validation Time: 1.3541484289999062s
+Total test Time: 0.9467026760003137s
+Train Time per epoch: 13.624780596000164s
+Validation per epoch: 1.3541484289999062s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,315 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5188
+
+	pruning_ratio = 0.4
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.61s/it, Val Loss: 0.694 | Val Acc: 0.497]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.505 | Val Loss: 0.694 Val Acc: 0.497
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.04s/it, Val Loss: 0.694 | Val Acc: 0.497]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.44it/s]
+Accuracy: 0.5142, Loss: 0.6930
+Time:
+===============
+Overall Time: 16.013732926000557s
+Total train Time: 13.640335165000579s
+Total validation Time: 1.3902881099993465s
+Total test Time: 0.9326404989997172s
+Train Time per epoch: 13.640335165000579s
+Validation per epoch: 1.3902881099993465s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,316 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5142
+
+	pruning_ratio = 0.5
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,776 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,776 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.50s/it, Val Loss: 0.693 | Val Acc: 0.499]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.503 | Val Loss: 0.693 Val Acc: 0.499
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.90s/it, Val Loss: 0.693 | Val Acc: 0.499]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.52it/s]
+Accuracy: 0.5133, Loss: 0.6928
+Time:
+===============
+Overall Time: 15.874289757000042s
+Total train Time: 13.53564924300008s
+Total validation Time: 1.355706325999563s
+Total test Time: 0.926777277999463s
+Train Time per epoch: 13.53564924300008s
+Validation per epoch: 1.355706325999563s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,316 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5133
+
+	pruning_ratio = 0.6
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,772 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,772 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.51s/it, Val Loss: 0.694 | Val Acc: 0.496]Epoch 1/1 | Train Loss: 0.693 Train Acc: 0.513 | Val Loss: 0.694 Val Acc: 0.496
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.89s/it, Val Loss: 0.694 | Val Acc: 0.496]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.49it/s]
+Accuracy: 0.5083, Loss: 0.6931
+Time:
+===============
+Overall Time: 15.866687728000215s
+Total train Time: 13.550734645000375s
+Total validation Time: 1.3396831810005096s
+Total test Time: 0.930897780000123s
+Train Time per epoch: 13.550734645000375s
+Validation per epoch: 1.3396831810005096s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,313 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.5083
+
+	pruning_ratio = 0.7
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,774 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.58s/it, Val Loss: 0.694 | Val Acc: 0.498]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.502 | Val Loss: 0.694 Val Acc: 0.498
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.98s/it, Val Loss: 0.694 | Val Acc: 0.498]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.61it/s]
+Accuracy: 0.5030, Loss: 0.6936
+Time:
+===============
+Overall Time: 15.984250933000112s
+Total train Time: 13.596861476000413s
+Total validation Time: 1.3800597620002009s
+Total test Time: 0.9552953940001316s
+Train Time per epoch: 13.596861476000413s
+Validation per epoch: 1.3800597620002009s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,314 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.503
+
+	pruning_ratio = 0.8
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.66s/it, Val Loss: 0.693 | Val Acc: 0.500]Epoch 1/1 | Train Loss: 0.694 Train Acc: 0.507 | Val Loss: 0.693 Val Acc: 0.500
+Training: 100%|??????????| 1/1 [00:15<00:00, 15.06s/it, Val Loss: 0.693 | Val Acc: 0.500]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 32.10it/s]
+Accuracy: 0.4897, Loss: 0.6937
+Time:
+===============
+Overall Time: 16.046821832000205s
+Total train Time: 13.669950117000553s
+Total validation Time: 1.3868135370003074s
+Total test Time: 0.9410073970002486s
+Train Time per epoch: 13.669950117000553s
+Validation per epoch: 1.3868135370003074s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,316 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.4897
+
+	pruning_ratio = 0.9
+Before pruning
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 132.49 MB
+After pruning, and before applying definitive mask
+The model has 34,731,777 trainable parameters
+The model has 34,731,777 non-zero trainable parameters
+Model size: 132.50 MB
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.57s/it, Val Loss: 0.694 | Val Acc: 0.503]Epoch 1/1 | Train Loss: 0.695 Train Acc: 0.502 | Val Loss: 0.694 Val Acc: 0.503
+Training: 100%|??????????| 1/1 [00:14<00:00, 14.99s/it, Val Loss: 0.694 | Val Acc: 0.503]
+Inference: 100%|??????????| 30/30 [00:00<00:00, 31.87it/s]
+Accuracy: 0.4953, Loss: 0.6949
+Time:
+===============
+Overall Time: 15.983178747999773s
+Total train Time: 13.589689051999812s
+Total validation Time: 1.3956766709998192s
+Total test Time: 0.9499761919996672s
+Train Time per epoch: 13.589689051999812s
+Validation per epoch: 1.3956766709998192s
+After applying definitive mask, and after train/test
+The model has 34,731,777 trainable parameters
+The model has 34,731,316 non-zero trainable parameters
+Model size: 132.49 MB
+		Test accuracy = 0.4953
