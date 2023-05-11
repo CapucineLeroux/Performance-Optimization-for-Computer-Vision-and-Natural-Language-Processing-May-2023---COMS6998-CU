@@ -8,5 +8,9 @@ The original script used in the kaggle notebook is in the file 'Initial Model.ip
 ## How to run
 The notebooks have been run on Google Colab using a V100 GPU and High-RAM config. Remove the google colab drive cells to run it on another computer. 
 
+## Results
+The optimal batch size is 128 and the optimal number of workers is 0.
+The structured pruning (90 percent) reduces learnable parameters from 34,731,77 to 3,528,662. 
+These optimizations induce an overall speed up of x2.
 
 
